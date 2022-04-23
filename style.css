@@ -1,0 +1,194 @@
+html {
+scroll-behavior: smooth;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 6%;
+    background: transparent;
+}
+.Logo{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0% 0%;
+    background: scroll;
+}
+.yell{
+    font-size: 30px;
+    color: rgb(221, 193, 10);
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0% 0%;
+    background: scroll; 
+}
+.navlinks{
+    flex:auto 1;
+    text-align: right;
+   ;
+}
+.bruh{
+    text-decoration: none;
+    background: transparent;
+    font-size: 20px;
+    font-family: courier;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    position: relative;
+    left: 50px;
+}
+.bruh:hover{
+    color: rgb(131, 195, 229);
+    font-style: ease-in-out;
+    transition: 0.9s ease-in-out;
+   
+}
+.done1{
+color: brown;
+font-weight: 500;
+}
+.about{
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    position: relative; left: 1165px; top: 25px;
+    transform: translate(-50%,-50%);
+    background: white;
+    width: 30%;
+    height: 27px;
+    border-radius: 40px;
+    padding: 10px;
+    background-position: center;
+    background-size: cover;
+}
+.search{
+    color:black;
+    float: right;
+    width: 25px;
+    height: 23px;
+    border-radius: 40%;
+    background: rgb(153, 195, 204);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.nice{
+    border:none;
+    background: none;
+    outline: black;
+    float: left;
+    padding: 0;
+    color: black;
+    font-size: 17px;
+    font-family: courier;
+    color: black;
+    transition: 0.4s;
+}
+.style{
+    font-size: 20px;
+color: rgb(204, 195, 26);
+}
+.link{
+    text-decoration: none;
+    background: transparent;
+    font-size: 15px;
+    font-family: courier;
+    font-weight: 200;
+    color: rgb(160, 203, 171);
+    margin: 20px;
+    border: 2px;
+}
+.link:hover{
+    color:rgb(196, 99, 14);
+    font-style: ease-in-out;
+    transition: 0.9s ease-in-out;
+}
+.done2{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+.img{
+   position: relative ;
+   left: 1000px;
+   top: 40px;
+   width: 300px;
+}
+.leftside, .rightside{
+height: 100vh;
+width: 100%;
+}
+.righthand{
+width: 250px;
+position: relative;
+left: 250px;
+bottom: 100px;
+}
+.po{
+ width: 250px;
+ position: relative;
+ left: 600px;
+ bottom: 278px;   
+}
+.col{
+    font-size: 40px;
+    color: aliceblue;
+}
+.lin{
+text-decoration: none;
+    background: transparent;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200;
+    color: rgb(229, 248, 24);
+    margin: 20px;
+    border: 2px;
+}
+.lin:hover{
+    color:rgb(36, 149, 177);
+    font-style: ease-in-out;
+    transition: 0.9s ease-in-out;
+}
+.akorfa{
+    color: blue;
+    font-size: 50px;
+}
+.efia{
+    color: aliceblue;
+    font-size: 25px;
+}
+.akos{
+    text-decoration: none;
+    background: transparent;
+    font-size: 20px;
+    font-family: courier;
+    font-weight: 200;
+    color: rgb(76, 15, 15);
+    margin: 20px; 
+}
+.akos:hover{
+    color: rgb(131, 195, 229);
+    font-style: ease-in-out;
+    transition: 0.9s ease-in-out;
+
+}
+.header{
+    background: rgba(0,0,0,0.7) url(class.jpg);
+    background-blend-mode: darken;
+    
+}
+.win{
+    background: rgb(0,0,0,0.7) url(ave.jpg);
+    background-blend-mode: darken;
+
+}
+.point{
+    background: rgb(0,0,0,0.7) url(call.jpg);
+    background-blend-mode: darken;
+}
